@@ -37,24 +37,6 @@ div.title {
 	margin: auto;	
 }
 
-
-
-
-
-h2 {
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 24px;
-	margin: 20px 0;
-}
-
- 
-h3 {
-	font-size: 14px;
-	font-weight: bold;
-	margin: 15px 0;
-}
-
 h2 a,
 h3 a{
 	text-decoration: none;
@@ -63,7 +45,7 @@ h3 a{
 
 nav{
 	flex: 0 0 auto;
-	height: 65px;
+	height: 10%;
 	text-align: right;	
 }
 
@@ -73,16 +55,12 @@ input[type=submit],
 input[type=reset] {
 	display: inline-block;	
 	margin-left: 5px;
-	padding: 5px 10px;
-	font-size: 14px;
+	padding: 5px 10px;	
 	font-weight: bolder;
 	color: black;
 	text-decoration: none;
 	text-transform: uppercase;
-	background-color: white;
-	border: 7px solid transparent;
-	border-image: linear-gradient(to right, white, black, white);
-	border-image-slice: 10%;
+	background-color: white;	
 }
 
 

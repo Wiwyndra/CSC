@@ -15,4 +15,20 @@ h1 span {
 	font-style: italic;
 }
 
+nav a,
+a.btn,
+input[type=submit],
+input[type=reset] {
+	font-size: 0.4rem;	
+	padding: 5px;
+	border: 4px solid transparent;
+	border-image: linear-gradient(to right, white, black, white);
+	border-image-slice: 10%;
+}
+
+
+nav a img {
+	max-width: 60%;
+	height: auto;
+}
 

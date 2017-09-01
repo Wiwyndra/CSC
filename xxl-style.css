@@ -16,3 +16,18 @@ h1 span {
 	font-size: 2rem;
 	font-weight: bold;
 }
+
+nav a,
+a.btn,
+input[type=submit],
+input[type=reset] {
+	font-size: 1rem;
+	border: 7px solid transparent;
+	border-image: linear-gradient(to right, white, black, white);
+	border-image-slice: 10%;
+}
+
+nav a img {
+	max-width: 100%;
+	height: auto;
+}
