@@ -7,7 +7,7 @@ html {
 body {	
 	height: 100%;
 	color: #ffffff;
-	font-family: "Verdana", serif;
+	font-family: "Verdana", sans-serif;
 	font-size: 100%;
 }
 
@@ -25,12 +25,12 @@ header {
 	flex: 0 0 auto;
 	height: 20%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .name {
 	display: flex;
-	width: 60%;
+	width: 70%;
 }
 
 div.title {

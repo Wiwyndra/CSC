@@ -1,14 +1,18 @@
+/* max-width:480px */
+
 .wrapperMain {
 	width: 100%;
 }
 
 h1 {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 	text-align: right;
 }
 
 h1 span {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-style: italic;
 }
+
+
