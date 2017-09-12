@@ -31,3 +31,18 @@ nav a img {
 	max-width: 100%;
 	height: auto;
 }
+
+section.activity {
+	height: 250px;	
+}
+
+img.activity-description {
+	height: 200px;
+	width: 200px;
+}
+
+div.activity-description {
+	width: 350px;
+	height: 200px;
+	padding-top: 25px;
+}
