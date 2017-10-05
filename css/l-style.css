@@ -37,13 +37,4 @@ nav a img {
 	height: auto;
 }
 
-.topbutton {
-	position:fixed;
-	bottom:10px;
-	right: 0;	 
-}
 
-.topbutton img {
-	width: 60%;
-	height: auto;
-}
