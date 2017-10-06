@@ -232,11 +232,25 @@ background: #999;
 	display: block;
 	float: left;
 	width: 25%;
+	height: inherit;
 	text-align: center;
+	padding: 15px;
+}
+
+.table {
+	display: table;
+	min-height: 100%;
+}
+
+.table-cell {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .pre-img h3 {
 	color: black;
+	margin: 5px;
 }
 
 
@@ -283,6 +297,7 @@ div.activity-image {
 
 h2, h3, h4, h5, h6 {
 	margin: 15px 0;
+	font-weight: bold;
 }
 
 h2 a,

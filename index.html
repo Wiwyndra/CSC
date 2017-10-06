@@ -157,6 +157,18 @@
 		</section>
 		
     </div>
+	
+	<section class="activity clearfix">
+		<h2>Высококвалифицированные специалисты</h2>
+		<p>Наши сотрудники регулярно проходят обучение новым технологиям и курсы повышения квалификации
+		непосредственно у производителей оборудования.</p><br/>
+		<a rel="simplebox" href="images/certificateHaier.jpg">
+			<img src="images/mini-certificateHaier.jpg">
+		</a>
+		<a rel="simplebox" href="images/certificateVaillant.jpg">
+			<img src="images/mini-certificateVaillant.jpg">
+		</a>		
+	</section>
 
   </main> 
 
@@ -172,7 +184,23 @@
   </footer>
 <!-- <a href="#" class="topbutton"><img src="images/topbutton.png" alt="top"/></a> -->
 
-</div>
+</div><!-- wrapperMain -->
+
+<script type="text/javascript" src="simplebox_util.js"></script>
+<script type="text/javascript">
+(function(){
+var boxes=[],els,i,l;
+if(document.querySelectorAll){
+els=document.querySelectorAll('a[rel=simplebox]');	
+Box.getStyles('simplebox_css','simplebox.css');
+Box.getScripts('simplebox_js','simplebox.js',function(){
+simplebox.init();
+for(i=0,l=els.length;i<l;++i)
+simplebox.start(els[i]);
+simplebox.start('a[rel=simplebox_group]');			
+});
+}
+})();</script>
 </body>
 
 </html>

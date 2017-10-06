@@ -41,3 +41,7 @@ nav a img {
 	height: auto;
 }
 
+
+div.pre-img {
+	display: none;
+}
