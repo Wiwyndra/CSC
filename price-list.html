@@ -4,8 +4,14 @@
 <head>
 <meta charset="utf-8">
 <title>Крымский Сервисный Центр</title>
-<link rel="stylesheet" href="reset.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/reset.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/s-style.css" media="screen and (max-width:480px)" />
+<link rel="stylesheet" href="css/m-style.css" media="screen and (min-width: 481px) and (max-width:600px)" />
+<link rel="stylesheet" href="css/l-style.css" media="screen and (min-width: 601px) and (max-width:800px)" />
+<link rel="stylesheet" href="css/xl-style.css" media="screen and (min-width: 801px)  and (max-width:1024px)" />
+<link rel="stylesheet" href="css/xxl-style.css" media="screen and (min-width: 1025px)" />
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <script src="scripts.js"></script>
 <meta property="og:title" content="Крымский Сервисный Центр: Услуги"/>
@@ -22,28 +28,30 @@
 
 
   <header>
-	<div class="container">
-		<div class="logo">
-			<img src="images/logo-white.png" height="171px" width="175px">
-		</div>
-		<div class="name">
-			<h1>Крымский Сервисный Центр</h1>
-		</div>
-	</div>
+	<div class="logo">
+		<img src="images/logo.png" alt="Crimean Service Center"/>
+	</div> <!-- logo -->
+	<div class="name">
+		<div class="title">
+		<h1>Крымский 
+		<span>Сервисный</span>
+		Центр</h1>
+		</div><!-- title -->
+	</div><!-- name -->	
   </header>
 
   <nav>
 	<div class="container">
-		<a href="index.html"><img src="images/home-black.png" height="17px" width="18px"></a>
+		<a href="index.html"><img src="images/home-black.png" alt="home"/></a>
 		<a href="news.html">Новости</a>
 		<a href="catalog.html">Товары</a>
-		<a href="prise-list.html" class="active">Услуги и цены</a>
+		<a href="prise-list.html" class="active">Услуги</a>
 		<a href="contacts.html">Контакты</a>
 	</div>
   </nav>
 
   <main>
-	<div class="container">
+	
 		<div class="ahtung">
 			<p>
 			<span class="uppercase">Внимание!</span> В разделе указаны ориентировочные цены
@@ -2480,23 +2488,21 @@
 			</h3>			
 		</section>
 	  
-	</div>
+	
 </div>
   </main>
 
-  <footer>
-	<div class="container">
-		<ul class="footer-menu">
-			<li><a href="index.html">Главная</a></li>
-			<li><a href="news.html">Новости</a></li>
-		</ul>
-		<ul class="footer-menu">
-			<li><a href="index.html">&#169; КСЦ, 2017</a></li>
-			<li><a href="https://career.ru/resume/b4b609d0ff0396c3980039ed1f77414848616f" target="_blank">handmade by wiwyndra</a></li>
-		</ul>
-	</div>
+  <footer>	
+	<ul class="footer-menu">
+		<li><a href="index.html">Главная</a></li>
+		<li><a href="news.html">Новости</a></li>
+	</ul>
+	<ul class="footer-menu">
+		<li><a href="index.html">&#169; КСЦ, 2017</a></li>
+		<li><a href="https://career.ru/resume/b4b609d0ff0396c3980039ed1f77414848616f" target="_blank">handmade by wiwyndra</a></li>
+	</ul>	
   </footer>
-<a href="#" class="topbutton"><img src="images/topbutton.png"></a>
+<!-- <a href="#" class="topbutton"><img src="images/topbutton.png"></a> -->
 
 </div>
 </body>

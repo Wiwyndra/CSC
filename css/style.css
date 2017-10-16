@@ -294,6 +294,10 @@ div.activity-image {
 	width: 25%;
 }
 
+img.clients {
+	margin: 5px;
+}
+
 h2, h3, h4, h5, h6 {
 	margin: 15px 0;
 	font-weight: bold;
@@ -502,6 +506,9 @@ span.title {
 	color: white;
 }
 
+div.ahtung {
+	margin: 10px 0;
+}
 
 div.price {
 	display: none;
