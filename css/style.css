@@ -20,6 +20,7 @@ body {
 	margin: 0 auto;
 	background-image: linear-gradient(to right bottom, #494947 0%, #242422 40%, #242422 60%, #494947 100%);
 	background-attachment: fixed;
+	_zoom: 1;
 	padding: 0 5%;
 }
 
@@ -510,22 +511,32 @@ div.ahtung {
 	margin: 10px 0;
 }
 
-div.price {
+a.activityName {
+	text-decoration: none;
+}
+
+a.activityName  img{
+	width: 250px;
+	height: 250px;	
+	box-shadow: 2px 2px 5px black;
+}
+
+a.activityName img:hover,
+a.activityName img:active {
+	box-shadow: 2px 2px 0 #AAA6A6;
+}
+
+/* div.price {
 	display: none;
 	width: 100%;
-	height: 600px;
-	background-color: black;
-	border: 2px solid white;
-	border-radius: 5px;
+	height: 80%;
 	overflow: auto;
-}
+} */
 
-div.price.small {
-	height: 200px;
-}
+
 
 table {
-	width: 600px;
+	width: 100%;
 	margin: 5px auto;
 	border: 1px solid white;
 }
