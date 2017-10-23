@@ -513,12 +513,15 @@ div.ahtung {
 
 a.activityName {
 	text-decoration: none;
+	color: white;
+	margin: 5px;
 }
 
 a.activityName  img{
 	width: 250px;
-	height: 250px;	
-	box-shadow: 2px 2px 5px black;
+	height: 185px;
+	border-radius: 15px;
+	box-shadow: 2px 1px 5px black;
 }
 
 a.activityName img:hover,
