@@ -310,6 +310,13 @@ h3 a{
 	color: white;
 }
 
+span.importante a{
+	color: white;
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bold;
+}
+
 input,
 textarea,
 select {
@@ -509,6 +516,12 @@ span.title {
 
 div.ahtung {
 	margin: 10px 0;
+}
+
+div.choiseActivity {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 a.activityName {
