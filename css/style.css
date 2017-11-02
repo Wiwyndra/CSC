@@ -346,6 +346,18 @@ legend {
 	font-size: large;
 }
 
+.filter-menu {
+	display: flex;
+	justify-content: space-around;
+}
+
+button.filter-button {	
+	background: transparent;
+	border: none;
+	width: 18%;
+	height: auto;
+}
+
 form {
 	margin:auto;
 }
