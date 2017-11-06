@@ -655,6 +655,21 @@ span.hot {
 	color: red;
 }
 
+div.imgItem {
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+}
+
+.imgItem img {
+	max-width: 100%;
+	height: auto;
+}
+
+div.descriptionItem {
+	width: 100%;
+	padding: 5px;
+}
 
 
 footer {
