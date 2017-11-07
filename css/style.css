@@ -19,8 +19,7 @@ body {
 	min-height: 100%;
 	margin: 0 auto;
 	background-image: linear-gradient(to right bottom, #494947 0%, #242422 40%, #242422 60%, #494947 100%);
-	background-attachment: fixed;
-	_zoom: 1;
+	background-attachment: local;	
 	padding: 0 5%;
 }
 
@@ -351,12 +350,21 @@ legend {
 	justify-content: space-around;
 }
 
+.filter-menu.small{
+	width: 80%;
+	margin-left: 20%;
+}
+
 button.filter-button {	
 	background: transparent;
 	border: none;
 	width: 18%;
 	height: auto;
 }
+
+/* button.filter-button.active-button img{	
+	box-shadow:  1px -1px 4px white;
+} */
 
 form {
 	margin:auto;
@@ -496,7 +504,7 @@ div.nomination img {
 	margin-right: 15px;
 }
 
-div.nomination h3 {
+div.nomination h2 {
 	display: inline-block;
 }
 
