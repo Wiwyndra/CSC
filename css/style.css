@@ -540,6 +540,7 @@ div.ahtung {
 }
 
 div.choiseActivity {
+	margin-top: 15px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -561,6 +562,29 @@ a.activityName  img{
 a.activityName img:hover,
 a.activityName img:active {
 	box-shadow: 2px 2px 0 #AAA6A6;
+}
+
+a.itemName {
+	width: 250px;
+	height: 250px;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+a.itemName:hover,
+a.itemName:active {
+	color: #1E891E;
+	border: 2px solid grey;
+	box-shadow: 2px 2px 2px white;
+}
+
+p.invertor {
+	text-align: right;
 }
 
 /* div.price {
