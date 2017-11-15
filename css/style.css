@@ -572,6 +572,7 @@ a.itemName {
 	text-align: center;
 	text-decoration: none;
 	color: white;
+	background-color: #262526;
 	border: 1px solid white;
 	border-radius: 5px;
 }
@@ -579,11 +580,16 @@ a.itemName {
 a.itemName:hover,
 a.itemName:active {
 	color: #1E891E;
+	background-color: black;
 	border: 2px solid grey;
 	box-shadow: 2px 2px 2px white;
 }
 
 p.invertor {
+	text-align: right;
+}
+
+h3.right {
 	text-align: right;
 }
 
