@@ -565,6 +565,7 @@ a.activityName img:active {
 }
 
 a.itemName {
+	position: relative;
 	width: 250px;
 	height: 250px;
 	padding: 10px;
@@ -579,10 +580,17 @@ a.itemName {
 
 a.itemName:hover,
 a.itemName:active {
-	color: #1E891E;
+	color: #75A4F9;
 	background-color: black;
 	border: 2px solid grey;
 	box-shadow: 2px 2px 2px white;
+}
+
+img.action-item-img {
+	position: absolute;
+	top:5px;
+	left: 5px;
+	z-index: 10;
 }
 
 p.invertor {
