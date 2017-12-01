@@ -631,6 +631,15 @@ td span.discount {
 		
 }
 
+td li {	
+	font-style: italic;
+}
+
+td ul {
+	margin: 2px 5px;
+	list-style: square inside;
+}
+
 span.cold {
 	color: blue;
 }
