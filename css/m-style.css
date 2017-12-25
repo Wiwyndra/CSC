@@ -45,3 +45,12 @@ nav a img {
 div.pre-img {
 	display: none;
 }
+
+div.price {
+	max-height: 400px;
+	min-width: 530px;
+}
+
+.news-item p:last-of-type {
+	display: none;
+}

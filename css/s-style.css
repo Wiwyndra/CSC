@@ -50,6 +50,25 @@ div.pre-img  {
 	display: none;	 
 }
 
+div.price {
+	max-height: 400px;	
+}
+
+td.imgDevice,
+td.imgDevice2 {
+	width: 30%;
+	height: auto;
+}
+
+.news-item p:nth-last-of-type(2),
+.news-item p:last-of-type {
+	display: none;
+}
+
+.references {
+	height: auto;
+}
+
 
 
 
