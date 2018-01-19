@@ -79,6 +79,14 @@ a.activityName  img {
 	height: auto;
 }
 
+a.itemName {
+	width: 45%;
+	height: auto;
+}
 
+a.itemName  img {
+	width: 100%;
+	height: auto;
+}
 
 

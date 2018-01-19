@@ -338,7 +338,7 @@ input[type=reset] {
 fieldset {
 	width: 100%;
 	margin: auto;
-	margin-top: 10px;
+	margin-top: 15px;
 	border: 1px solid white;
 }
 
@@ -350,23 +350,27 @@ legend {
 .filter-menu {
 	display: flex;
 	justify-content: space-around;
+	margin: 5px;
 }
 
-.filter-menu.small{
-	width: 80%;
-	margin-left: 20%;
-}
 
-button.filter-button {	
+a.filter-button {	
 	background: transparent;
 	border: none;
 	width: 18%;
 	height: auto;
 }
 
-/* button.filter-button.active-button img{	
-	box-shadow:  1px -1px 4px white;
-} */
+a.filter-button:active,
+a.filter-button:hover{	
+	filter: brightness(1.2);
+}
+
+a.filter-button:active img,
+a.filter-button:hover img{
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px white;
+}
 
 form {
 	margin:auto;
