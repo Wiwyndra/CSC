@@ -37,6 +37,10 @@ nav a img {
 	height: auto;
 }
 
+div.price {
+	max-height: 600px;
+}
+
 
 
 

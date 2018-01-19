@@ -38,4 +38,11 @@ nav a img {
 	height: auto;
 }
 
+div.price {
+	max-height: 600px;
+}
+
+.news-item p:last-of-type {
+	display: none;
+}
 
