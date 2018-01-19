@@ -28,7 +28,7 @@ nav a,
 a.btn,
 input[type=submit],
 input[type=reset] {
-	font-size: 0.5rem;
+	font-size: 0.8rem;
 	padding: 5px;
 	border: 4px solid transparent;
 	border-image: linear-gradient(to right, white, black, white);
@@ -53,4 +53,14 @@ div.price {
 
 .news-item p:last-of-type {
 	display: none;
+}
+
+a.activityName {
+	width: 45%;
+	height: auto;
+}
+
+a.activityName  img {
+	width: 100%;
+	height: auto;
 }

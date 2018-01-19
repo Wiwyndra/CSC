@@ -644,10 +644,10 @@ td.deviceType {
 td.applianceBrand,
 td.title {
 	text-align: center;
-	font-size: 24px;
+	font-size: 30px;
 	font-weight: bold;
 	color: #414245;
-	background-color: white;
+	background-color: #E7E7E7;
 }
 
 td a{

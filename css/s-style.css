@@ -2,7 +2,7 @@
 
 .wrapperMain {
 	width: 100%;
-	min-width: 330px;
+	min-width: 390px;
 }
 
 .name {
@@ -29,7 +29,7 @@ nav a,
 a.btn,
 input[type=submit],
 input[type=reset] {
-	font-size: 0.4rem;	
+	font-size: 0.5rem;	
 	padding: 5px;
 	border: 4px solid transparent;
 	border-image: linear-gradient(to right, white, black, white);
@@ -69,7 +69,15 @@ td.imgDevice2 {
 	height: auto;
 }
 
+a.activityName {
+	width: 45%;
+	height: auto;
+}
 
+a.activityName  img {
+	width: 100%;
+	height: auto;
+}
 
 
 
