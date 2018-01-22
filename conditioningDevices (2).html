@@ -65,6 +65,36 @@
 		</fieldset>	
 	</div>
 	
+	<div class="filter-select">
+	<h2>Подбор по параметрам</h2>
+		<div class="select-block"
+			<p>Наличие инвертора:</p>
+			<label><input type="radio" name="invertor" value="dc">DC-инветор</label><br>
+			<label><input type="radio" name="invertor" value="on-off">Неинверторный(ON/OFF)</label><br>
+			<label><input type="radio" name="invertor" value="item" checked>Любой</label><br>
+		</div>
+		<div class="select-block">
+			<p>Рабочая площадь:</p>
+			<label><input type="radio" name="space" value="7">до 20 м<sup>2</sup></label><br>
+			<label><input type="radio" name="space" value="9">до 26 м<sup>2</sup></label><br>
+			<label><input type="radio" name="space" value="12">до 35 м<sup>2</sup></label><br>
+			<label><input type="radio" name="space" value="18">до 52 м<sup>2</sup></label><br>
+			<label><input type="radio" name="space" value="24">до 70 м<sup>2</sup></label><br>
+			<label><input type="radio" name="space" value="30">до 80 м<sup>2</sup></label><br>
+		</div>
+		<div class="select-block">
+			<p>Дополнительные условия:</p>
+			<input type="checkbox" name="addConditions" value="1">Высота потолков более 3м;</label><br>
+			<input type="checkbox" name="addConditions" value="2">Офисное помещение;</label><br>
+			<input type="checkbox" name="addConditions" value="3">Промышленное помещение;</label><br>
+			<input type="checkbox" name="addConditions" value="4">В помещении одновременно присутствует большое количество людей;</label><br>
+			<input type="checkbox" name="addConditions" value="5">Окна выходят на солнечную сторону;</label><br>
+		</div>
+		<div class="right">
+			<a class="btn" href="javascript:void(0)" onclick="filterItems('selectItem')">Подобрать</a>
+		</div>
+	</div><!-- filter-select -->
+	
 	
 	<div class="choiseActivity">
 		<a class="itemName" href="catalog/haier/">

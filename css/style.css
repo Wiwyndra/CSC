@@ -372,6 +372,31 @@ a.filter-button:hover img{
 	box-shadow: 2px 2px 2px white;
 }
 
+div.filter-select {
+	display: none;
+	margin: 15px 0;
+	padding-left: 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+div.select-block {
+	display: block;
+	margin: 10px 0;
+}
+
+.right {
+	width: 100%;
+	padding: 10px 2%;
+	text-align: right;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	vertical-align: middle;
+	width: auto;
+}
+
 form {
 	margin:auto;
 }

@@ -17,8 +17,9 @@
 			
 function hashSearch(value) {
 	var Items = document.getElementById('hashFilter');// в диве hashFilter	
-	var items = Items.getElementsByClassName('news-item');// отбираем все элементы с классом news-item
+	var items = Items.getElementsByClassName('news-item');// отбираем все элементы с классом news-item			
 		for (var i=0; i<items.length; i++) {// для каждого в списке
+		items[i].style.display = 'none';
 			if (items[i].classList.contains(value)) {//если в имени класса содержится искомое значение
 				items[i].style.display = 'block';//показать
 			} else {
