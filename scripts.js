@@ -37,6 +37,29 @@ function hashSearch(value) {
 	
 }
 
+function selectItems(value) {
+	var Items = document.getElementById('items');// в диве items
+	var items = Items.getElementsByClassName('itemName');// отбираем все элементы с классом itemName
+		for (var i=0; i<items.length; i++) {// для каждого в списке
+			/* items[i].style.display = 'none'; */
+				if (items[i].classList.contains(value)) {//если в имени класса содержится искомое значение
+					items[i].style.display = 'block';//показать
+				} else {
+					items[i].style.display = 'none';//скрыть
+				}
+			}
+		
+	window.location = "#"+value;  //при активации функции добавить искомое значение через хэш к url
+	
+/*  //сброс кнопки "назад" браузера, "починка" нормального течения события "назад" - полное открытие списка новостей
+	window.addEventListener("popstate",function(e) { 	//прослушка события  "popstate", добавлена фукция обработки	
+			document.location.href = "conditioningDevices(2).html"; //переход на вкладку "conditioningDevices(2).html"
+			e.preventDefault(); //сброс исходного значения действия
+		},false); 
+	 */
+}
+
+
 
 
 			
