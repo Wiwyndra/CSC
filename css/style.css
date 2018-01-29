@@ -611,7 +611,11 @@ div.price {
 	overflow: auto;
 }
 
-
+span.link {
+	text-decoration: underline;
+	color: #6A93D4;
+	font-style: italic;
+}
 
 table {
 	width: 100%;
