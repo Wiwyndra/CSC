@@ -1,0 +1,57 @@
+#slider {
+	width: 100%; 
+	margin: 10px auto; 
+	position: relative;
+}
+
+#slides {	
+	background: white;
+	border: 15px solid transparent;
+	border-image: linear-gradient(to bottom, white, black, white);
+	border-image-slice: 10%;
+}
+
+#overflow {
+	overflow: hidden;
+}
+
+.inner {
+	width: 500%;
+}
+	
+.inner:after {
+	content:'';
+	display: block;
+	height: 0;
+	clear:both;
+}
+	
+.page {
+	float: left;
+	width: 20%;
+}
+
+#slides .inner {
+	transition: all 0.8s ease-in-out;
+	animation-name: slide-animation;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+#slides .inner:hover{
+	animation-play-state: paused;
+}
+
+@keyframes slide-animation {  
+	0%{opasity:0;}
+	1%{margin-left:-100%;opasity:1;}
+	30%{margin-left:-100%; opasity:1;}
+	35%{opasity:0.3;}
+	36%{margin-left:-200%;opasity:1;}
+	66%{margin-left:-200%; opacity:1;}
+	67%{opacity:0.3;}
+	69%{margin-left:-300%; opacity:1;}
+	95%{margin-left:-300%; opacity:1;}	
+	99%{margin-left:-400%; opacity:0;}
+	100%{margin-left:0px; opacity:0;}
+}
