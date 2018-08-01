@@ -1,0 +1,57 @@
+/* min-width: 801px    and    max-width:1024px */
+
+
+.wrapperMain {
+	width: 80%;
+	max-width: 1280px;
+	min-width: 812px;
+}
+
+h1 {
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+
+h2 {
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+
+nav a,
+input[type=submit],
+input[type=reset] {
+	font-size: 1rem;
+	border-radius: 0 0 7px 7px;
+}
+
+nav a img {
+	max-width: 100%;
+	height: auto;
+}
+
+div.price {
+	max-height: 600px;
+}
+
+.news-item p:last-of-type {
+	display: none;
+}
+
+.wrapper {	
+	width: 32%;
+}
+
+.description {
+	width: 45%;
+}
+
+a.btn {
+	font-size: 1rem;
+	border-radius: 7px 7px 0 0;
+	white-space: nowrap;
+}
+

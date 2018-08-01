@@ -25,6 +25,10 @@ h2 {
 	font-weight: bold;
 }
 
+nav {
+	min-width: 340px;
+}
+
 nav a,
 a.btn,
 input[type=submit],

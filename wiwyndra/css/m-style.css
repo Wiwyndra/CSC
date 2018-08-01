@@ -1,0 +1,71 @@
+/* min-width: 481px   and   max-width:600px */
+
+.wrapperMain {
+	width: 100%;
+}
+
+/* .name {
+	white-space: pre-line;
+} */
+
+h1 {
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+h2 {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+
+nav a,
+input[type=submit],
+input[type=reset] {
+	font-size: 0.8rem;
+	padding: 5px;
+	border-radius: 0 0 5px 5px;
+}
+
+
+nav a img {
+	max-width: 70%;
+	height: auto;
+}
+
+a.btn {
+	font-size: 0.8rem;
+	border-radius: 5px 5px 0 0;
+	white-space: nowrap;
+}
+
+
+div.pre-img {
+	display: none;
+}
+
+div.price {
+	max-height: 400px;
+	min-width: 530px;
+}
+
+.news-item p:last-of-type {
+	display: none;
+}
+
+a.activityName {
+	width: 45%;
+	height: auto;
+}
+
+a.activityName  img {
+	width: 100%;
+	height: auto;
+}
+
+
+.wrapper {	
+	width: 100%;
+}

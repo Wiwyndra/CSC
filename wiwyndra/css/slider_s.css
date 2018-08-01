@@ -1,0 +1,135 @@
+#slider {
+	width: 100%; 
+	margin: 10px auto; 
+	position: relative;
+}
+
+#slides {
+	margin-bottom: 20px;
+	background: white;
+	border: 15px solid transparent;
+	border-image: linear-gradient(to bottom, white, black, white);
+	border-image-slice: 10%;
+}
+
+#overflow {
+	overflow: hidden;
+}
+
+.inner {
+	width: 500%;
+}
+	
+.inner:after {
+	content:'';
+	display: block;
+	height: 0;
+	clear:both;
+}
+	
+.page {
+	float: left;
+	width: 20%;
+}
+
+#slides .inner {
+	transition: all 0.8s ease-in-out;
+	animation-name: slide-animation;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+#slides .inner:hover{
+	animation-play-state: paused;
+}
+
+#slider input {
+	display: none;
+}
+
+#slide1:checked ~ #slides.inner { margin-left:0;} 
+#slide2:checked ~ #slides.inner { margin-left:-100%;} 
+#slide3:checked ~ #slides.inner { margin-left:-200%;} 
+#slide4:checked ~ #slides.inner { margin-left:-300%;} 
+#slide5:checked ~ #slides.inner { margin-left:-400%;}
+ 
+
+/*точки для перелистывания*/
+
+#active {
+text-align: center;
+margin-top: -37px;
+}
+
+#active label {
+width: 15px;
+height:10px;
+background: #ccc;
+display: inline-block;
+cursor: pointer;
+border-radius: 2px;
+}
+	
+#active label:hover {
+background: #999;
+}
+
+#slide1:checked ~ #active label:nth-child(1),
+#slide2:checked ~ #active label:nth-child(2),
+#slide3:checked ~ #active label:nth-child(3) ,
+#slide4:checked ~ #active label:nth-child(4),
+#slide5:checked ~ #active label:nth-child(5) { background: #333;}
+
+#slide1:checked ~ #slides.inner {animation: none;}
+#slide2:checked ~ #slides.inner {animation: none;}
+#slide3:checked ~ #slides.inner {animation: none;}
+#slide4:checked ~ #slides.inner {animation: none;}
+#slide5:checked ~ #slides.inner {animation: none;}
+
+
+
+#slides .page {
+	text-align: center;
+	margin: auto;
+} 
+
+.pre-img {
+	display: block;
+	float: left;
+	width: 25%;
+	height: inherit;
+	text-align: center;
+	padding: 15px;
+}
+
+
+.pre-img h3 {
+	color: black;
+	margin: 5px;
+}
+
+
+
+@keyframes slide-animation { 
+	0%{opacity:0;}
+	2%{opacity:1;}
+	17%{margin-left:0px; opacity:1;}
+	18%{opacity:0.6;}
+	20%{margin-left:-100%; opacity:1;}
+	35%{margin-left:-100%; opacity:1;}
+	38%{opacity:0.6;}
+	40%{margin-left:-200%; opacity:1;}
+	55%{margin-left:-200%; opacity:1;}
+	58%{opacity:0.6;}
+	60%{margin-left:-300%; opacity:1;}
+	75%{margin-left:-300%; opacity:1;}
+	78%{opacity:0.6;}
+	80%{margin-left:-400%; opacity:1;}
+	95%{opacity:1;}
+	99%{margin-left:-400%; opacity:0;}
+	100%{margin-left:0px; opacity:0;}
+	
+}
+
+
+

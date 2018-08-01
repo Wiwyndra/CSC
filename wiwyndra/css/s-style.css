@@ -1,0 +1,83 @@
+/* max-width:480px */
+
+.wrapperMain {
+	width: 100%;
+	min-width: 360px;
+}
+
+
+h1 {
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+h2 {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+
+nav a,
+input[type=submit],
+input[type=reset] {
+	font-size: 0.5rem;	
+	padding: 5px;
+	border-radius: 0 0 5px 5px;
+}
+
+
+nav a img {
+	max-width: 60%;
+	height: auto;
+}
+
+a.btn {
+	font-size: 0.5rem;
+	border-radius: 5px 5px 0 0;
+	white-space: nowrap;
+}
+
+div.pre-img  {
+	display: none;
+}
+
+.topbutton {
+	display: none;	 
+}
+
+div.price {
+	max-height: 400px;	
+}
+
+td.imgDevice,
+td.imgDevice2 {
+	width: 30%;
+	height: auto;
+}
+
+.news-item p:nth-last-of-type(2),
+.news-item p:last-of-type {
+	display: none;
+}
+
+.references {
+	height: auto;
+}
+
+a.activityName {
+	width: 45%;
+	height: auto;
+}
+
+a.activityName  img {
+	width: 100%;
+	height: auto;
+}
+
+.wrapper {	
+	width: 100%;
+}
+
+
